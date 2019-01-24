@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>rail</title>
+</head>
+<script>
+function sum()
+{
+alert("YOUR DETAILS ARE SUBMITTED");
+}
+</script>
+<body bgcolor="orange">
+<marquee scrolldelay=2>
+<h1><i><font color="blue">
+WELCOME TO INDIAN RAIL SYSTEM</font></i></h1>
+</marquee>
+<h2>RESERVATION FORM</h2>
+<form method="post">
+<table border=50 width="100%">
+<tr><td width="30%">FIRST NAME:</td>
+<td width ="80%"><input type="text" name="firstname" size="25"></td></tr>
+<tr><td width="20%">LAST NAME:</td>
+<td width ="80%"><input type="text" name="lastname" size="25"></td></tr>
+<tr><td width="20%">AGE:</td>
+<td width ="80%"><input type="text" name="age" size="10"></td></tr>
+<tr><td width="20%">EMAIL:</td>
+<td width ="80%"><input type="text" name="email" size="15"></td></tr>
+<tr><td width="20%">ADDRESS:</td>
+<td width ="80%"><input type="text" name="address" size="35"></td></tr>
+<tr><td width="20%">CITY:</td>
+<td width ="80%"><input type="text" name="city" size="20"></td></tr>
+<tr><td width="20%">STATE:</td>
+<td width ="80%"><input type="text" name="state" size="20"></td></tr>
+<tr><td width="20%">PINCODE:</td>
+<td width ="80%"><input type="text" name="pincode" size="15"></td></tr>
+<tr><td width="20%">COACH TYPE:</td>
+<td width ="80%"><input type="radio" name="A/C" size="15">A/C
+<input type="radio" name="NON-A/C" size="15">NON-A/C
+<tr><td width="20%">TRAIN'S TYPE:</td>
+<td width ="80%"><input type="radio" name="ORDINARY" size="15">ORDINARY
+<input type="radio" name="EXPRESS" size="15">EXPRESS
+<input type="radio" name="MAIL" size="15">MAIL
+<input type="radio" name="SUPER FAST" size="15">SUPER FAST</td></tr>
+<tr><td width="20%">MEMBERS:</td>
+<td width ="80%"><input type="text" name="MEMBERS" size="15"></td></tr>
+<tr><td width="20%">TRAVEL TYPE:</td>
+<td width ="80%"><input type="radio" name="SLEEPER" size="15">SLEEPER
+<input type="radio" name="GENERAL" size="15">GENERAL</td></tr>
+<tr><td width="35%">JOURNEY PLACE FROM:</td>
+<td width="80%"><select name="FROM">
+<option value=1 selected>CHENNAI</option>
+<option value=2>ARAKKONAM</option>
+<option value=3>KATPADI</option>
+<option value=3>JOLARPET</option>
+<option value=4>BANGALORE</option></td></tr>
+<tr><td width="35%">TO:</td>
+<td width="80%"><select name="TO">
+<option value=1 selected>MANGALORE</option>
+<option value=2>SALEM</option>
+<option value=3>COIMBATORE</option>
+<option value=3>TRICHY</option>
+<option value=4>MADURAI</option></td></tr>
+<tr><td></td><td width="80%"><input type="submit" value="REGISTER" size="45" onclick="sum(this);">
+<input type="reset" value="reset values" size="45">
+</td></tr>
+</table>
+</form>
+</body>
+</html>
